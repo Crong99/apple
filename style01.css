@@ -69,6 +69,19 @@
   padding-bottom: 10px;
 }
 
+/* recent */
+.recent h2 {
+}
+.recent .recent-title .bt-stit {
+  color: #da5e7c;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1.67;
+}
+.bestM .best-title .bt-tit {
+  font-size: 22px;
+}
+
 /* mediaquery */
 @media (max-width: 1020px) {
   .container {
