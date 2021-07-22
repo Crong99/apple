@@ -22,7 +22,7 @@
 #header .header-title {
   font-weight: bold;
   font-size: 32px;
-  border-bottom: 1px solid #ebebeb;
+  border-bottom: 1px solid #d1d1d1;
   padding-bottom: 10px;
   margin-bottom: 15px;
 }
@@ -70,16 +70,37 @@
 }
 
 /* recent */
-.recent h2 {
+.recentM {
+  padding-top: 10px 0;
+  margin-top: 19px;
+  overflow: hidden;
 }
-.recent .recent-title .bt-stit {
-  color: #da5e7c;
-  font-size: 12px;
+
+.recentM .recent {
+  float: left;
+  width: 49%;
+  margin-right: 2%;
+}
+.recentM .recent:last-child {
+  margin-right: 0;
+}
+.recentM h2 {
+  font-size: 20px;
   font-weight: bold;
-  line-height: 1.67;
+  margin-bottom: 12px;
+  margin-top: 16px;
+  padding-top: 20px;
+
+  border-top: 1px solid #d1d1d1;
 }
-.bestM .best-title .bt-tit {
-  font-size: 22px;
+.recentM .recent-title .rt-stit {
+  font-size: 15px;
+  line-height: 1.9;
+}
+.recentM .recent-title .rt-tit {
+  color: #908f94;
+  font-size: 15px;
+  font-weight: 300;
 }
 
 /* mediaquery */
