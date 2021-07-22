@@ -1,0 +1,77 @@
+/* container */
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+/* row */
+.row {
+  position: relative;
+  margin: 0 20px;
+}
+
+/* header */
+
+#header .header-date {
+  font-weight: bold;
+  font-size: 12px;
+  padding-top: 30px;
+  display: block;
+  color: #a8a8a8;
+}
+#header .header-title {
+  font-weight: bold;
+  font-size: 32px;
+  border-bottom: 1px solid #ebebeb;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+#header .header-id {
+  position: absolute;
+  right: 0;
+  bottom: 10px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  font-weight: 300;
+  font-size: 18px;
+  color: #fff;
+  /*text-align: center;
+    line-height: 40px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase; /* 대문자 */
+
+  background: linear-gradient(
+      149.16deg,
+      #a4a9b5 10.18%,
+      rgba(164, 169, 181, 0) 81.31%
+    ),
+    #c4c4c4;
+}
+
+/* bestM */
+.bestM .best-title .bt-stit {
+  color: #da5e7c;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1.67;
+}
+.bestM .best-title .bt-tit {
+  font-size: 22px;
+}
+.bestM .best-title .bt-desc {
+  color: #818181;
+  font-size: 22px;
+  font-weight: 300;
+  margin: 6px 124px 13px 0;
+}
+
+/* mediaquery */
+@media (max-width: 1020px) {
+  .container {
+    width: 100%;
+  }
+}
