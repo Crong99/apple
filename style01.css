@@ -103,7 +103,59 @@
   font-weight: 300;
 }
 
+/* nextM */
+.nextM h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 12px;
+  margin-top: 16px;
+  padding-top: 20px;
+
+  border-top: 1px solid #d1d1d1;
+}
+.nextM .next {
+  display: flex;
+  margin-bottom: 16px;
+  position: relative;
+}
+.nextM .next::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: -8px;
+  width: calc(100% - 114px); /* css는 계산도 가능 */
+  height: 1px;
+  background: #d1d1d1;
+}
+.nextM .next .next-img {
+  width: 102px;
+  margin-right: 12px;
+}
+.nextM .next .next-tit {
+  display: flex; /* flex는 가로로 정렬되는 성질이 있음 */
+  flex-direction: column; /* 그래서 세로로 하고 싶으면 방향을 column으로 주면 됨 */
+  justify-content: center; /* 가운데로 오게 하는 것. */
+}
+.nextM .next .next-tit .nt-stit {
+  color: #da5e7c;
+  font-size: 12px;
+}
+.nextM .next .next-tit .nt-tit {
+  font-size: 16px;
+}
+.nextM .next .next-tit .nt-desc {
+  font-size: 13px;
+  color: #a1a1a3;
+  font-weight: 300;
+
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
 /* mediaquery */
+
 @media (max-width: 1020px) {
   .container {
     width: 100%;
